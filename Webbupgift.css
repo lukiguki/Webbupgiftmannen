@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+.lada {
+    margin: auto;
+    border-radius: 10%;
+    background-color: white;
+    width: 1000px;
+    height: 700px;
+}
+#counter {
+    width: 300px;
+    height: none;
+    background-color: orange;
+    margin-left: 150px;
+}
+#terrorist {
+    width: 300px;
+    height: none;
+    background-color: orange;
+    margin-left: 100px;
+}
+#counter img {
+    width: inherit;
+}
+#terrorist img {
+    width: inherit;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: orange;
+}
+.section {
+    display: flex;
+    flex-flow: row;
+}
+@media only screen and (max-width: 768px) {
+    #counter {
+        margin: auto;
+    }
+    #terrorist {
+        margin: auto;
+    }
+    .lada {
+        background-color: black;
+        width: 769px;
+        height: auto;
+    }
+}

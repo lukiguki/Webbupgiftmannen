@@ -1,0 +1,26 @@
+.lada {
+    width: 0px;
+    height: 0px;
+    border-radius: 0%;
+    margin-left: 8%;
+    background-color: black;
+    justify-content: center;
+}
+#terrorist {
+    align-content: center;
+    margin: auto;
+    justify-content: center;
+}
+#counter {
+    align-content: center;
+    margin: auto;
+    justify-content: center;
+}
+h1 {
+    width: 350px;
+}
+.section{
+    width: auto;
+    display: flex;
+    flex-flow: column;
+}
